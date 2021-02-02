@@ -1,0 +1,42 @@
+{
+  "name": "get-flat",
+  "version": "1.0.0",
+  "description": "Turn class instances into plain objects based on accessors",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "pretest": "npm run build",
+    "coverage": "jest --coverage",
+    "lint": "eslint ./**/*.ts --fix",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prepublish": "tsc"
+  },
+  "keywords": [
+    "class",
+    "instance",
+    "json",
+    "plain",
+    "object",
+    "flat",
+    "serialize"
+  ],
+  "author": "ppicom",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/parser": "^4.14.2",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "typescript": "^4.1.3"
+  }
+}
