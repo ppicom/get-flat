@@ -1,6 +1,6 @@
 {
   "name": "get-flat",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Turn class instances into plain objects based on accessors",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
